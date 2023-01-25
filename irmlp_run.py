@@ -1,0 +1,10 @@
+import argparse
+import torch
+import torch.nn as nn
+import numpy as np
+import time
+from utils.irmlp_core import IRMLP
+
+
+
+testmlp = IRMLP()
