@@ -6,7 +6,9 @@ import time
 import pdb
 
 class IRMLP(nn.Module):
-    def __init__(self, output_size=128, input_size=128, batch_size=256, mlp_depth=6, cuda_id=False):
+    def __init__(self, input_size=128, output_size=128, \
+        batch_size=256, mlp_depth=6, fourier_depth=10, \
+        cuda_id=None):
         
         super(IRMLP, self).__init__()
 
